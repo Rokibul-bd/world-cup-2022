@@ -117,12 +117,16 @@ body{
 .blog-info .transfer-btn{
     display:inline-block;
     padding:5px 30px;
-    border:1px solid #000;
+    outline:1px solid #000;
     border-radius:3px;
     font-size:18px;
     text-decoration: none;
     color:#000;
     margin-bottom: 15px;
+    transition:0.3s all ease;
+}
+.blog-info .transfer-btn:hover{
+    outline:1px solid tomato;
 }
 .blogs-title{
     margin-bottom: 15px;
