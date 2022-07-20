@@ -254,6 +254,10 @@ body{
     }
     .blog-menu{
         margin-bottom:20px;
+        background-color: #fff;
+    }
+    .items {
+        box-shadow: 1px 1px 5px #ddd;
     }
     .blogs{
         grid-template-columns: 1fr;
