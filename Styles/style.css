@@ -165,6 +165,10 @@ body{
 .footer-menu ul li a{
     color:#fff;
     text-decoration: none;
+    transition:0.3s all ease;
+}
+.footer-menu ul li a:hover{
+    color:orange;
 }
 .footer-social-icon{
     display:flex;
